@@ -1,11 +1,359 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Portfólio profissional de estudante de Análise e Desenvolvimento de Sistemas.">
+
+    <title>Meu Portfólio | Desenvolvedor</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <a href="#inicio" class="logo">DEV<span>.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+            ☰
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato" class="nav-contact">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="tag">ESTUDANTE DE TECNOLOGIA</span>
+
+                <h1>
+                    Olá, eu sou <span>Victor Lucas Miranda</span>
+                </h1>
+
+                <h2>
+                    Transformando ideias em soluções através da tecnologia.
+                </h2>
+
+                <p>
+                    Estudante de Análise e Desenvolvimento de Sistemas,
+                    explorando o mundo da programação e criando
+                    soluções digitais.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn primary">Ver projetos ↗</a>
+                    <a href="#contato" class="btn secondary">Entrar em contato</a>
+                </div>
+
+            </div>
+
+            <!-- FOTO DE PERFIL -->
+<div class="profile-area">
+
+    <img 
+        src="assets/minha-foto.jfif" 
+        alt="Minha foto"
+        class="profile-photo"
+    >
+
+    <div class="profile-decoration"></div>
+
+</div>
+
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section class="section" id="sobre">
+
+            <div class="section-title">
+                <span>CONHEÇA UM POUCO</span>
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="about-content">
+
+                <p>
+                    Olá! Sou estudante de Análise e Desenvolvimento de
+                    Sistemas, com interesse em tecnologia, programação
+                    e desenvolvimento de soluções digitais.
+                </p>
+
+                <p>
+                    Atualmente, estou construindo minha trajetória na
+                    área de tecnologia, desenvolvendo conhecimentos em
+                    lógica de programação, Python, JavaScript, HTML,
+                    CSS e fundamentos de desenvolvimento de software.
+                </p>
+
+                <p>
+                    Gosto de aprender na prática, transformar ideias em
+                    projetos e explorar novas tecnologias para solucionar
+                    problemas do cotidiano. Tenho interesse especial em
+                    desenvolvimento web, automação e, futuramente, em
+                    áreas como cibersegurança e computação em nuvem.
+                </p>
+
+                <p>
+                    Busco constantemente aprimorar minhas habilidades
+                    técnicas, desenvolver projetos e adquirir experiência
+                    profissional na área de TI.
+                </p>
+
+                <div class="objective">
+                    <strong>Meu objetivo:</strong>
+                    evoluir como profissional de tecnologia, participar
+                    de projetos desafiadores e construir soluções que
+                    façam a diferença.
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section" id="habilidades">
+
+            <div class="section-title">
+                <span>MINHAS TECNOLOGIAS</span>
+                <h2>Habilidades</h2>
+                <p>
+                    Conhecimentos em desenvolvimento e aprendizado contínuo.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+                    <span>🐍</span>
+                    <h3>Python</h3>
+                </div>
+
+                <div class="skill">
+                    <span>JS</span>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="skill">
+                    <span>🌐</span>
+                    <h3>HTML5</h3>
+                </div>
+
+                <div class="skill">
+                    <span>🎨</span>
+                    <h3>CSS3</h3>
+                </div>
+
+                <div class="skill">
+                    <span>⌘</span>
+                    <h3>Git e GitHub</h3>
+                </div>
+
+                <div class="skill">
+                    <span>🗄️</span>
+                    <h3>SQL</h3>
+                </div>
+
+                <div class="skill">
+                    <span>💡</span>
+                    <h3>Lógica de programação</h3>
+                </div>
+
+            </div>
+
+            <p class="learning">
+                Sempre aprendendo, praticando e evoluindo.
+            </p>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="section" id="projetos">
+
+            <div class="section-title">
+                <span>MEU TRABALHO</span>
+                <h2>Projetos</h2>
+                <p>
+                    Conhecimentos aplicados em projetos práticos e acadêmicos.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJETO 1 -->
+                <article class="project-card">
+
+                    <div class="project-image weather-image">
+                        <span>PREVISÃO DO TEMPO</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            DESENVOLVIMENTO WEB
+                        </span>
+
+                        <h3>Sistema de Previsão do Tempo</h3>
+
+                        <p>
+                            Aplicação web voltada à consulta de informações
+                            meteorológicas, desenvolvida utilizando
+                            tecnologias fundamentais do desenvolvimento
+                            front-end.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" target="_blank">Visualizar projeto ↗</a>
+                            <a href="#" target="_blank">GitHub ↗</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- PROJETO 2 -->
+                <article class="project-card">
+
+                    <div class="project-image database-image">
+                        <span>BANCO DE DADOS SQL</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            PROJETO ACADÊMICO
+                        </span>
+
+                        <h3>Sistema de Gerenciamento de Pedidos</h3>
+
+                        <p>
+                            Projeto acadêmico desenvolvido em colaboração
+                            com um colega, envolvendo a criação e estruturação
+                            de um banco de dados relacional para gerenciamento
+                            de clientes, categorias, produtos, estoque e pedidos.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>Banco de Dados</span>
+                            <span>Modelagem Relacional</span>
+                        </div>
+
+                        <div class="project-details">
+
+                            <strong>Conceitos aplicados:</strong>
+
+                            <p>
+                                Tabelas, chaves primárias, chaves estrangeiras,
+                                restrições de integridade e manipulação de dados.
+                            </p>
+
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" target="_blank">Código no GitHub ↗</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- OBJETIVOS PROFISSIONAIS -->
+        <section class="section objectives">
+
+            <div class="section-title">
+                <span>MEU PRÓXIMO PASSO</span>
+                <h2>Objetivos profissionais</h2>
+            </div>
+
+            <p>
+                Quero evoluir na área de desenvolvimento de software,
+                conquistar experiência profissional e continuar
+                explorando tecnologias que contribuam para minha formação.
+            </p>
+
+            <p>
+                Tenho interesse em desenvolvimento web, automação,
+                cibersegurança e computação em nuvem.
+            </p>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section class="section" id="contato">
+
+            <div class="section-title">
+                <span>VAMOS CONVERSAR?</span>
+                <h2>Entre em contato</h2>
+                <p>
+                    Estou aberto a oportunidades, conexões e novos projetos.
+                </p>
+            </div>
+
+            <div class="contact-links">
+
+                <a href="mailto:SEUEMAIL@EMAIL.COM">
+                    ✉ E-mail
+                </a>
+
+                <a href="https://github.com/SEU-USUARIO" target="_blank">
+                    GitHub ↗
+                </a>
+
+                <a href="#" target="_blank">
+                    LinkedIn ↗
+                </a>
+
+            </div>
+
+            <a href="mailto:SEUEMAIL@EMAIL.COM" class="btn primary">
+                Enviar mensagem
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            Desenvolvido por [SEU NOME] © <span id="year"></span>
+        </p>
+
+        <p>Construindo, aprendendo e evoluindo.</p>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
 </body>
 </html>
